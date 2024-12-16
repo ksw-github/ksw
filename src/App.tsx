@@ -1,5 +1,6 @@
 import BarChart from './BarChart'
 import './App.css'
+import DoughnutChart from './Doughnut'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <BarChart />
+      <DoughnutChart />
     </>
   )
 }
