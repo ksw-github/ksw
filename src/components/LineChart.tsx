@@ -28,13 +28,29 @@ export default function LineChart() {
   const labels = ["January","February","March","April","May","July"];
   const data = {
     labels: labels,
-    datasets: [{
-      label: 'My First Dataset',
-      data: [65, 59, 80, 81, 56, 55, 40],
-      fill: false,
-      borderColor: 'rgb(75, 192, 192)',
-      tension: 0.1
-    }]
+    datasets: [
+      {
+        label: 'A',
+        data: [65, 59, 80, 81, 56, 55, 40],
+        fill: false,
+        borderColor: 'rgb(75, 192, 192)',
+        tension: 0.1
+      },
+      {
+        label: 'B',
+        data: [60, 65, 70, 75, 60, 59, 43],
+        fill: false,
+        borderColor: 'rgb(255, 99, 132)',
+        tension: 0.1
+      },
+      {
+        label: 'C',
+        data: [69, 50, 75, 85, 59, 57, 45],
+        fill: false,
+        borderColor: 'rgb(255, 205, 86)',
+        tension: 0.1
+      }
+    ]
   };
 
   const config = {
